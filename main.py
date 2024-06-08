@@ -6,6 +6,9 @@ if len(sys.argv) > 1:
 else:
     max_x = input('What is the max x?')
 
+max_y = input('max y')
+print(max_y)
+
 #max_x = input('What is the max x?')
 print(max_x)
 #max_x = os.getenv('MAX_X')
