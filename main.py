@@ -15,7 +15,9 @@ else:
 #print(max_y)
 
 #max_x = input('What is the max x?')
-print(max_x)
+print(f'Max x: {max_x}')
+print(f'Max y: {max_y}')
+
 #max_x = os.getenv('MAX_X')
 print()
 for x in range(0, int(max_x)):
