@@ -1,13 +1,13 @@
 import os
 import sys
 
-if len(sys.argv) > 1:
+if len(sys.argv) > 2:
     max_x = sys.argv[1]
 else:
     max_x = input('What is the max x?')
 
-if len(sys.argv) > 1:
-    max_y = sys.argv[1]
+if len(sys.argv) > 2:
+    max_y = sys.argv[2]
 else:
     max_y = input('What is the max y?')
 
